@@ -1,0 +1,15 @@
+<!--(1)通过页面标签实现跳转[不含参数]-->
+<navigator url='../jumpResult/jumpResult'>(1)点击跳转[不含参数]</navigator>
+<!--(2)通过页面标签实现跳转[携带参数]-->
+<navigator url='../jumpResult/jumpResult?name=zjc&address=徐汇区'>(2)点击跳转[携带参数]</navigator>
+<!--(3)通过绑定事件,实现跳转[不含参数]-->
+<view bindtap='jump'>(3)点击跳转(不含参数)</view>
+<!--(4)通过绑定事件,实现跳转[携带参数]-->
+<view data-name='zjc' data-address='徐汇区' bindtap='jumpParam'>(4)点击跳转(携带参数)</view>
+<!--(5)通过绑定事件,实现跳转[跳转首页演示]-->
+<view  bindtap='jumpIndex'>(5)点击跳转-跳转首页演示</view>
+<!--
+补充说明
+1>bindtap = 绑定方法 
+2>data-*  = 自定义属性
+-->

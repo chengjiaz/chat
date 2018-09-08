@@ -1,0 +1,5 @@
+ <view  wx:for="{{getInfo}}" wx:for-index="index" wx:for-item="itemGetInfo">
+ <view>姓名:{{itemGetInfo.name}}</view>
+ <view>住址:{{itemGetInfo.address}}</view>
+ <view>年龄:{{itemGetInfo.age}}</view>
+ </view>

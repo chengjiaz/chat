@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/sg/sg",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/jump/jump",
+    "pages/jumpResult/jumpResult",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#060606",
+    "selectedColor": "#1e7fdd",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "集合"
+      },
+      {
+        "pagePath": "pages/jump/jump",
+        "text": "跳转"
+      },
+      {
+        "pagePath": "pages/jumpResult/jumpResult",
+        "text": "结果"
+      }
+    ]
+  }
+ 
+}

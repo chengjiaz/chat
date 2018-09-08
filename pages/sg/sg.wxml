@@ -1,0 +1,2 @@
+<view data-newValue='{{oldValue}}'>显示结果:{{oldValue}}</view>
+<view bindtap='changeValue'data-value='{{value}}'>点击改变-value</view>
