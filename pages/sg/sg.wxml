@@ -1,2 +1,7 @@
+<view>(1)如下代码-演示-数据的设置与修改,并做结果提示。</view>
 <view data-newValue='{{oldValue}}'>显示结果:{{oldValue}}</view>
-<view bindtap='changeValue'data-value='{{value}}'>点击改变-value</view>
+<view bindtap='changeValue'data-value='{{value}}'>点击改变</view>
+<view>(2)如下代码-演示获取page中data数据。</view>
+<view bindtap='getPageData' data-pagedatavalue='{{value}}'>获取的是:{{DataValue.value}}</view>
+<view>(3)如下代码-演示loading的加载与关闭</view>
+<view bindtap='closeLoading'>点击关闭,loading</view>

@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wx5cc1f7eced51892e",
-	"projectname": "stpr",
+	"projectname": "zjcChat",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
