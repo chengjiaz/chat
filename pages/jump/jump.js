@@ -1,4 +1,3 @@
-// pages/getinfo/getinfo.js
 /**
  * //获取应用实例(后续会使用到)
  *const app = getApp()

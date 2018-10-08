@@ -12,11 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    /**
-     * 1>如果携带参数可以通过在控制台打印options查看
-     * 2>如果想获取具体的参数,可以通过 . 操作符
-     * [options.name,options.address]
-     */
+
   },
 
   /**
@@ -66,5 +62,6 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+ 
 })

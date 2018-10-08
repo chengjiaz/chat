@@ -1,0 +1,6 @@
+<!--(1)图片-->
+<image src="../../images/t_image/t_image_1.png"></image>
+<!--(2) 音频-->
+<audio author='许嵩' name='拆东墙' controls='true' src='../../audio/t_audio/许嵩-拆东墙.mp3'></audio>
+<!--(3) 视频-->
+<video src='../../video/t_video/qq.flv'></video>

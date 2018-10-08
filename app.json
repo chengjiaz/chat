@@ -1,8 +1,11 @@
 {
   "pages":[
+    "pages/map/map",
+    "pages/mul/mul",
+    "pages/list/list",
     "pages/sg/sg",
     "pages/index/index",
-    "pages/list/list",
+   
     "pages/jump/jump",
     "pages/jumpResult/jumpResult",
     "pages/logs/logs"
